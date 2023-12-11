@@ -1,0 +1,240 @@
+#container{ 
+    margin: auto;
+}
+#container > header{ 
+    height: 200px; 
+}
+#container > header > img{
+    width: 500px;
+    height: 50px;
+}
+ #container > nav { 
+    height: 60px; 
+    background-color: orange; 
+}
+ #container > main { 
+    min-height: 300px; 
+    display: flex; 
+}
+ #container > main > article {
+    width: 80%; 
+}
+ #container > main > aside { 
+    width: 20%; 
+    background-color: lightgray; 
+}
+ #container > footer { 
+   
+}
+#chitietsp { 
+    display: grid; 
+    grid-template-columns: 40% auto; 
+    gap: 30px;
+    margin-top: 25px;
+}    
+#chitietsp > #trai >img { 
+    max-width: 100%; 
+    margin: 10px;
+}
+#chitietsp #phai >h1 { 
+    font-size: 24px;
+} 
+#chitietsp #phai >p{ 
+    font-size: 20px;
+} 
+#chitietsp form button:nth-child(1){ 
+    background: darkcyan; 
+    padding: 10px 15px; 
+    border: none; 
+    color: white;
+}
+#chitietsp form button:nth-child(2){
+    background: orange; 
+    padding: 10px 15px; 
+    border: none; 
+    color: white;
+}
+
+ /* Định dạng css các sản phẩm: */
+#sptrongloai h2{ 
+    margin-top: 20px;
+    font-size: 23px; 
+    border-bottom: 1px solid darkorange;
+    padding: 8px;
+}
+#listsp{ 
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+#listsp > .sp{ 
+    text-align: center;
+    display: inline-grid;
+
+}
+#listsp > .sp h4{ 
+    margin: 5px;
+}
+#listsp > .sp a{ 
+    text-decoration: none; 
+    color: black;
+    font-size: 20px;
+}
+#listsp > .sp a:hover{ 
+    color: red;
+}
+#listsp > .sp b {
+    color:darkorange; 
+    font-size: 18px;
+}
+#listsp > .sp >img{ 
+    max-width: 98%; 
+    height: 180px;  
+    margin-bottom: 5px;
+    margin-left: 70px;
+}
+/* Định dạng css thanh phân trang: */
+#pagination{ 
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+#pagination a{
+    text-decoration: none;
+    color:chocolate;
+    font-weight: 900;
+    margin: 5px;
+}
+#pagination a:hover{
+    color:darkblue;
+    text-decoration: underline;
+}
+
+/* Định dạng css menu */
+#thanhmenu{ 
+    padding: 0; 
+    margin: 0; 
+    list-style: none; 
+    text-align: center;
+}
+#thanhmenu > li{
+    display: inline; 
+    line-height: 60px; 
+    margin: 5px;
+}
+#thanhmenu > li > a{ 
+    text-decoration: none; 
+    color: white ; 
+    font-size: 18px; 
+    text-transform: uppercase;
+}
+#thanhmenu > li > a:hover{ 
+    color: red;
+}
+#listsp > .sp b{ 
+    color:darkorange;
+    font-size: 18px;
+}
+#listsp > .sp >img{
+    max-width: 98%;
+    height: 180px;
+    margin-bottom: 5px;
+}
+/* Định dạng css sp xem nhiều, sp nổi bật */
+#spnoibat h2, #spxemnhieu h2{
+    font-size: 22px;  
+    padding: 8px; 
+    background: darkcyan; 
+    color:white; 
+    margin:0
+}
+#listsp{ 
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    gap: 20px;
+}
+#listsp > .sp{ 
+    text-align: center;
+}
+#listsp > .sp h4{ 
+    margin: 5px;
+}
+#listsp > .sp a{
+    text-decoration: none;
+    color: black;
+}
+
+#listsp > .sp > a button{
+    color:black;
+    font-size: 18px;
+    height: 30px;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
+#listsp > .sp > a button:hover{
+    background-color: rgb(74, 20, 199);
+    color: aliceblue;
+}
+#listsp > .sp >img{
+    max-width: 98%;
+    height: 180px;
+    margin-bottom: 5px;
+}
+
+/* Định dạng css giỏ hàng */
+#cart{ 
+    width: 700px; 
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+h2{ 
+    margin: 0; 
+    font-size: 23px; 
+    border-bottom: 1px solid darkorange;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+#cart > div{
+    display: grid; 
+    grid-template-columns: 300px 80px 120px auto;
+}
+#cart > div > * {
+    border: 1px solid darkcyan;
+    padding: 8px;
+}
+
+
+#cart >#last{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+#cart >#last a{
+    text-decoration: none;
+    color: blue;
+    background-color: lightgray;
+    
+}
+
+/* Định dạng css check out */
+#frmcheckout { width: 700px; margin: auto;}
+#frmcheckout > div { margin-bottom: 15px;}
+#frmcheckout > div > label { color: darkblue; display: block;}
+#frmcheckout > div > input { width: 95%; padding: 10px; outline: none;}
+#frmcheckout > div > button { width: 120px; height: 35px;}
+
+/* Định dạng css register */
+#frmregister { width:650px; margin:auto; border:2px solid darkblue; padding:10px 10px;}
+#frmregister > div { margin-bottom: 15px;}
+#frmregister > div > label { display: block;}
+#frmregister > div > input { padding: 8px; outline: none; width: 100%;}
+#frmregister > div > button { width: 130px; height: 35px;} 
+
+
+
+
+
+
+
